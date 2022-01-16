@@ -1,11 +1,7 @@
 node {
     
-
-
-	
 	stage('Git') {
-		git 'https://github.com/sunpyopark/python-flask-web-app/'
+		git 'https://github.com/sunpyopark/RUET-ChatBot/'
 	}
-
 	
 }
