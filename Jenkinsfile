@@ -9,7 +9,7 @@ node {
     def registry = 'krandmm/subserve-chatbot'
     def version = ':v0.1.'
     def awsecrCredential = 'dmg-ecr-credentials'
-    def awsecrregistry = 'subserve-chatbot'
+    def awsecrregistry = 'dmg-python-coreapp'
 	
 	stage('Git') {
 		git 'https://github.com/sunpyopark/python-flask-web-app/'
